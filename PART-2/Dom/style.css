@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(85, 45, 45);
+}
+
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.hed{
+    position: relative;
+    min-height: 60vh;
+    background-image: url(./Acer_Wallpaper_03_3840x2400.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.cont{
+    /* max-width: 1200; */
+    margin: auto;
+    width: 90%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navl{
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.headline{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50% -50%); */
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-h{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.todo-s{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.fo{
+    /* border: 2px solid red; */
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.fo input{
+    min-height: 100%;
+}
+.fo input[type="text"]{
+    width: 80%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.fo input[type="submit"]{
+    width: 15%;
+    background: #094e6f;
+    color: white;
+    border: none;
+}
+
+.sifor{
+    margin-top: 5rem;
+}
+
+.sifor{
+    max-width: 800px;
+    width: 95%;
+    text-align: left;
+    margin: auto;
+}
+
+.sifor label{
+    display: block;
+    
+}
+.sifor input{
+    display: block;
+    width: 100%;
+    padding: 0.4rem;
+}
+
+.lik{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.sifor textarea{
+    width: 100%;
+}
+
+.sgnbtn{
+    background-color: #094e6f;
+    color: white;
+    padding: 1rem;
+    display: inline-block;
+    margin: auto;
+    margin-top: 1rem ;
+    text-align: center;
+}
